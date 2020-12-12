@@ -1,0 +1,120 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'),
+         url('../css/fonts/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../css/fonts/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'),
+         url('../css/fonts/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../css/fonts/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'),
+         url('../css/fonts/lato-v17-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../css/fonts/lato-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+ html{
+     box-sizing: border-box;
+ } 
+ *, *::before, *:after{
+     box-sizing: inherit;
+ }
+ 
+ body{
+     font-family: 'Lato';
+     font-style:normal;
+     font-size: 16px;
+     line-height: 1.2;
+     font-weight: normal;
+     color: black
+ }
+
+/* content styles */
+
+.content_wrapper{
+    width: 1204px;
+    height: 2000px;
+    margin-top: 35px;
+    margin-right: 20px;
+    margin-left: 310px;
+}
+
+
+.describtion_wrapper{
+    background-color: white;
+    width: 1204px;
+    height: 113px;
+}
+
+.content_describtion{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/*Все для формы*/
+.forms_wrapper{
+    background-color:white;
+    width: 1204px;
+    height: 300px;
+
+}
+
+.decor {
+    max-width: 600px;
+    background: white;
+  }
+
+  .contact_text{
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+  }
+
+  .form_inner {padding: 0px;}
+  .enter_form,  
+  .form_inner textarea {
+    display: block;
+    width: 100%;    
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 1px;
+    border-color: rgb(206, 206, 206);
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .form_submit {
+    margin-top: 10px;
+    background: black;
+    color: white;
+    width: 100px;
+    height: 25px;
+    font-size: 15px; 
+    border-radius: 5px;
+    border-width: 0px;
+  }
+  .form_inner textarea {resize: none;}
+
+  .form_submit:hover {
+      cursor: pointer;
+  }
+

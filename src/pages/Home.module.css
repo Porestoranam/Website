@@ -1,0 +1,122 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'),
+         url('../css/fonts/lato-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../css/fonts/lato-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'),
+         url('../css/fonts/lato-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../css/fonts/lato-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'),
+         url('../css/fonts/lato-v17-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../css/fonts/lato-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+ html{
+     box-sizing: border-box;
+ } 
+ *, *::before, *:after{
+     box-sizing: inherit;
+ }
+ 
+ body{
+     font-family: 'Lato';
+     font-style:normal;
+     font-size: 16px;
+     line-height: 1.2;
+     font-weight: normal;
+     color: black
+ }
+
+ /* Intro style start */
+
+ .intro{
+     height: 100vh;
+     background: url(../css/img/intro-bg.png) no-repeat center;
+     background-size: cover;
+     padding-top: 233px;
+ }
+
+
+.intro__title{
+    margin-top: 0px;
+    font-size: 80px;
+    line-height: 94px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+} 
+
+.intro__describtion{
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: white;
+}
+
+/*.wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+}*/
+
+/*.references__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content:center ;
+}*/
+
+
+.intro__list_first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.intro__list_second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+ 
+.intro__section{
+    margin-right: 70px;
+}
+
+.intro__section:last-child{
+    margin-right: 0;
+}
+
+.intro__link{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.intro__section:hover, intro__section:focus, intro__section:active{
+    opacity: .75;
+} 
+/* Intro style end */
+ 
+/*You can delete wrapper*/
